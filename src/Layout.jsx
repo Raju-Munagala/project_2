@@ -38,6 +38,7 @@ const Layout = () => {
           user.role.toLowerCase().includes(word.toLowerCase())
       )
     );
+    setCurrentPage(1);
   };
 
   const handleDelete = (id) => {
